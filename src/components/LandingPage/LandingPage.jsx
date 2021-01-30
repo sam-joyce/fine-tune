@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./LandingPage.module.scss";
+import { FiArrowDownRight } from 'react-icons/fi';
 
 import landing from "../../assets/images/landing.png";
 
@@ -13,7 +14,7 @@ const LandingPage = (props) => {
         <div className={styles.text_wrapper}>
           <h1>{header}</h1>
           <p>{text}</p>
-          <button>{button_text}</button>
+          <button>{button_text} <span><FiArrowDownRight/></span></button>
         </div>
       </section>
     </>
