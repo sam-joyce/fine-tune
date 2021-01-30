@@ -6,6 +6,7 @@ import Mission from "../../components/Mission";
 import {home_text} from "../../data/landing";
 import inplay1 from "../../assets/images/inplay1.png";
 import inplay2 from "../../assets/images/inplay2.png";
+import inplay3 from "../../assets/images/inplay3.png";
 
 
 const Home = () => {  
@@ -23,6 +24,15 @@ const Home = () => {
           <img src={inplay1} alt="Womens football"/>
           <img src={inplay2} alt="Womens football"/>
         </div>
+      </section>
+      <section className={styles.sessions}>
+        <h3>Our Sessions</h3>
+        <hr/>
+        <p><span>Bookings:</span> Bookings are all made on our online calendar booking system – found on the Booking tab on our website at finetunefootball.com</p>
+        <p><span>Location:</span> Light permitting, all sessions will be conducted outdoors at local parks and amenity areas. All sessions last one hour unless mutually agreed otherwise. Training can be given at your home if garden space permits.</p>
+        <p><span>Payments:</span> Payment for sessions should be made at least 24 hours in advance to allow for direct bank transfers. Alternatively, payments can be made via PayPal or in cash prior to the beginning of the individual session.</p>
+        <p><span>Cancellation Policy:</span> If you need to cancel a session, this needs to be done a minimum of 3 hours before the scheduled start time for a full payment refund or rescheduling of a session to be confirmed. Later cancellations or ‘no shows’ will be charged at full rate.</p>
+        <img src={inplay3} alt="Candid football shot"/>
       </section>
     </>
   );

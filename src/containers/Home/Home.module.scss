@@ -32,3 +32,42 @@
     }
   }
 }
+
+.sessions {
+  width: 800px;
+  margin: 200px auto;
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    text-align: center;
+    margin: 60px 0;
+    font-size: 44px;
+    color: $dark-grey;
+  }
+
+  hr {
+    width: 50px;
+    height: 5px;
+    background-color: $primary;
+    margin: auto;
+  }
+
+  p {
+    margin: 20px 0;
+    color: $light-grey;
+
+    span {
+      // font-size: 18px;
+      // color: $dark-grey;
+      font-weight: bold;
+      margin-right: 5px;
+    }
+  }
+
+  img {
+    width: 450px;
+    height: 300px;
+    margin: 70px auto;
+  }
+}
