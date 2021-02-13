@@ -8,6 +8,8 @@ import inplay1 from "../../assets/images/inplay1.png";
 import inplay2 from "../../assets/images/inplay2.png";
 import inplay3 from "../../assets/images/inplay3.png";
 import Testimonials from "../../components/Testimonials";
+import GetInTouch from "../../components/GetInTouch";
+import Footer from "../../components/Footer";
 
 
 const Home = () => {  
@@ -71,6 +73,8 @@ const Home = () => {
         </div>
       </section>
       <Testimonials />
+      <GetInTouch />
+      <Footer />
     </>
   );
 };
