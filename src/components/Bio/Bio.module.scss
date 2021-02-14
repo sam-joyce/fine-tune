@@ -1,0 +1,62 @@
+@import "../../assets/styles/base/_resets";
+@import "../../assets/styles/base/_typography";
+@import "../../assets/styles/_variables";
+
+.bio {
+  width: 80%;
+  margin: 50px auto;
+
+  h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    span {
+      color: $primary;
+    }
+  }
+
+  hr {
+    width: 100px;
+    height: 5px;
+    margin: 50px auto;
+    background-color: $primary;
+  }
+
+  img {
+    width: 300px;
+    height: 400px;
+    margin: 50px auto;
+  }
+
+  p {
+    width: 70%;
+    margin: 30px auto;
+    color: $dark-grey;
+  }
+}
+
+.qualifications {
+  width: 40%;
+  margin: 60px auto;
+  background: rgba(64, 62, 62, 0.03);
+  border-radius: 10px;
+  
+  padding: 20px;
+  text-align: center;
+
+  h3 {
+    font-weight: 700;
+    color: $dark-grey;
+  }
+
+  ul {
+    list-style-type: none;
+
+    li {
+      margin: 10px 0;
+      color: $dark-grey;
+    }
+  }
+}
