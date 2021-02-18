@@ -71,3 +71,16 @@ footer {
     }
   }
 }
+
+@media screen and (max-width: 1000px) {
+  footer {
+    display: flex;
+    justify-content: space-around;
+    
+    div:nth-child(1) {
+      img, h4 {
+        display: none;
+      }
+    }
+  }
+}

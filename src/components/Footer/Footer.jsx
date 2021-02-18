@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer>
       <div>
-        <img src={logo} alt="FTF Logo"/>
+        <img src={logo} alt="FTF Logo" />
         <h4>Fine Tune Football</h4>
       </div>
       <div>
@@ -24,10 +24,9 @@ const Footer = () => {
         <h6>LinkedIn</h6>
       </div>
       <div>
-        <button>Book Now</button>
-        {/* <a href="tel:+44 7532 368881">
-          <h5><AiOutlinePhone />+44 7532 368881</h5>
-        </a> */}
+        <a href="https://calendly.com/samtest21/coaching-session" target="__blank">
+          <button>Book Now</button>
+        </a>
       </div>
     </footer>
   );

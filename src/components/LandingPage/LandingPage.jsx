@@ -5,7 +5,7 @@ import { FiArrowDownRight } from 'react-icons/fi';
 import landing from "../../assets/images/landing.png";
 
 const LandingPage = (props) => {
-  console.log(props.data);
+  // console.log(props.data);
   const { header, text, button_text } = props.data;
   return (
     <>

@@ -14,13 +14,13 @@ const ContactInfo = () => {
       <div className={styles.wrapper}>
 
           <FiPhone />
-          <a href="tel: +44 1234 567890">
-            <h4>+44 1234 567890</h4>
+          <a href="tel: +44 7532 368881">
+            <h4>+44 7532 368881</h4>
           </a>
 
           <FiMail />
-          <a href="mailto: myname@finetune.co.uk">
-            <h4>myname@finetune.co.uk</h4>
+          <a href="mailto: olliemoloney@outlook.com">
+            <h4>olliemoloney@outlook.com</h4>
           </a>
 
           <IoLocationOutline />

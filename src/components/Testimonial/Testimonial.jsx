@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Testimonial.module.scss";
 
 const Testimonial = (props) => {
-  console.log(props);
+  // console.log(props);
   
   return (
     <div className={styles.testimonial}>

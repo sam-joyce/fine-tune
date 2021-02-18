@@ -66,6 +66,17 @@
   }
 }
 
+
+.map_wrapper {
+  width: 100%;
+
+  iframe {
+    width: 100%;
+    border: none;
+  }
+}
+
+
 @media screen and (max-width: 1250px) {
   .landing {
     .text_wrapper {

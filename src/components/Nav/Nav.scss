@@ -11,19 +11,21 @@
   font-size: 1.1rem;
   background-color: #112534;
 
-  button {
-    width: 120px;
-    height: 50px;
-    background-color: $primary;
-    color: $white;
-    border: none;
-    margin-right: 20px;
-
-    &:hover {
-      background-color: $white;
-      color: $primary;
-      transition: all 0.5s ease;
-      cursor: pointer;
+  a {
+    button {
+      width: 120px;
+      height: 50px;
+      background-color: $primary;
+      color: $white;
+      border: none;
+      margin-right: 20px;
+  
+      &:hover {
+        background-color: $white;
+        color: $primary;
+        transition: all 0.5s ease;
+        cursor: pointer;
+      }
     }
   }
 
