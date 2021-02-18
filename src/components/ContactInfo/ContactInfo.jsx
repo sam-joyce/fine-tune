@@ -12,24 +12,22 @@ const ContactInfo = () => {
         <p>Fill out the form and I’ll endeavour to get back to you as quick as I can.</p>
       </div>
       <div className={styles.wrapper}>
-        <div className={styles.phone}>
+
           <FiPhone />
           <a href="tel: +44 1234 567890">
             <h4>+44 1234 567890</h4>
           </a>
-        </div>
-        <div className={styles.mail}>
+
           <FiMail />
           <a href="mailto: myname@finetune.co.uk">
             <h4>myname@finetune.co.uk</h4>
           </a>
-        </div>
-        <div className={styles.location}>
+
           <IoLocationOutline />
           <a href="#">
             <h4>Beacon Park, Lichfield</h4>
           </a>
-        </div>
+
       </div>
       <div className={styles.icons}>
         <FiFacebook />

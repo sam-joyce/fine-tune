@@ -37,6 +37,7 @@ class Nav extends Component {
             <li className="nav-links" onClick={this.handleRoute}>Contact</li>
           </NavLink>
         </ul>
+        <button>Book Now</button>
       </nav>
     );
   }

@@ -6,10 +6,26 @@
   height: 80px;
   width: 100%;
   display: flex;
-  // justify-content: center;
+  justify-content: space-between;
   align-items: center;
   font-size: 1.1rem;
   background-color: #112534;
+
+  button {
+    width: 120px;
+    height: 50px;
+    background-color: $primary;
+    color: $white;
+    border: none;
+    margin-right: 20px;
+
+    &:hover {
+      background-color: $white;
+      color: $primary;
+      transition: all 0.5s ease;
+      cursor: pointer;
+    }
+  }
 
   .navbar_logo {
     // justify-self: start;
@@ -31,6 +47,7 @@
     text-align: center;
     width: 75%;
     justify-content: end;
+    margin-bottom: 0 !important;
 
     .nav-links {
       text-decoration: none;
@@ -101,6 +118,10 @@
       transform: translate(-100%, 40%);
       font-size: 1.8rem;
       color: white;
+    }
+
+    button {
+      display: none;
     }
   }
 }
