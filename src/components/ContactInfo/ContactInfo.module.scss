@@ -1,0 +1,76 @@
+@import "../../assets/styles/base/_resets";
+@import "../../assets/styles/base/_typography";
+@import "../../assets/styles/_variables";
+
+.contact_info {
+  width: 40%;
+  height: 100%;
+  background-color: $primary;
+  color: $white;
+  background-color: $primary;
+
+  div {
+    width: 75%;
+    margin: 20px auto;
+  }
+
+  div:nth-child(1) {
+    // background-color: red;
+    
+    h3 {
+      font-size: 32px;
+      line-height: 40px;
+      font-weight: bold;
+      margin: 20px 0;
+    } 
+  }
+
+  .wrapper {
+    height: 450px;
+    // background-color: yellow;
+    padding: 30px 0;
+    
+    div {
+      padding: 10px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 24px;
+
+      a {
+        color: $white;
+      }
+    }
+    
+    .phone {
+      height: 25%;
+      // background-color: blue;
+    }
+
+    .mail {
+      height: 25%;
+      // background-color: green;
+    }
+
+    .location {
+      height: 25%;
+      // background-color: orange;
+    }
+  }
+
+  .icons {
+    height: 100px;
+    width: 75%;
+    margin: 20px auto;
+    // background-color: purple;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    > * {
+      margin: 0 10px;
+      font-size: 44px;
+    }
+  }
+}
