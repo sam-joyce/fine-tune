@@ -75,9 +75,33 @@
     height: 550px;
 
     .text_wrapper {
-      width: 75%;
+      width: 70%;
       margin-top: -70%;
-      padding-left: 200px;
+      padding-left: 100px;
+
+      h1 {
+        font-size: 44px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .landing {
+    height: 450px;
+
+    .text_wrapper {
+      width: 75%;
+      margin-top: -80%;
+      padding-left: 150px;
+      
+      h1 {
+        font-size: 32px;
+      }
+
+      p {
+        font-size: 12px;
+      }
     }
   }
 }

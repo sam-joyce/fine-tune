@@ -80,3 +80,10 @@
       }
     }
 }
+
+@media screen and (max-width: 1100px) {
+  .contact_form_container {
+    width: 100%;
+    padding: 20px;
+  }
+}

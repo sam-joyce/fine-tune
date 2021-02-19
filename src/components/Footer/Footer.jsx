@@ -2,11 +2,15 @@ import React from "react";
 import styles from "./Footer.module.scss";
 
 import logo from "../../assets/images/ftf-logo.png";
-import { AiOutlinePhone } from 'react-icons/ai';
+import { FiFacebook, FiInstagram } from "react-icons/fi";
 
 const Footer = () => {
   return (
     <footer>
+      <div className={styles.mobile_icons}>
+        <FiFacebook />
+        <FiInstagram />
+      </div>
       <div>
         <img src={logo} alt="FTF Logo" />
         <h4>Fine Tune Football</h4>
