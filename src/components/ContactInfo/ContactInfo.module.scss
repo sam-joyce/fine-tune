@@ -80,3 +80,20 @@
     padding: 20px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .contact_info {
+    div {
+      width: 85%;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contact_info {
+    .wrapper {
+      grid-template-columns: 1fr;
+      // column-gap: 50px;
+    }
+  }
+}
