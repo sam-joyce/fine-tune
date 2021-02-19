@@ -39,3 +39,20 @@
     }
   }
 }
+
+@media screen and (max-width: 650px) {
+  .mission_wrapper {
+    .inner {
+      width: 80%;
+
+      h2 {
+        font-size: 36px;
+        line-height: 44px;
+      }
+
+      h4 {
+        font-size: 14px;
+      }
+    }
+  }
+}

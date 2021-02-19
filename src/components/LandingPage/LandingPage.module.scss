@@ -93,7 +93,7 @@
     .text_wrapper {
       width: 75%;
       margin-top: -80%;
-      padding-left: 150px;
+      padding-left: 120px;
       
       h1 {
         font-size: 32px;
@@ -101,6 +101,10 @@
 
       p {
         font-size: 12px;
+      }
+
+      button {
+        display: none;
       }
     }
   }
