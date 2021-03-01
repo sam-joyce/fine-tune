@@ -37,7 +37,7 @@ class Nav extends Component {
             <li className="nav-links" onClick={this.handleRoute}>Contact</li>
           </NavLink>
         </ul>
-        <a href="https://calendly.com/samtest21/coaching-session" target="__blank">
+        <a href="https://calendly.com/finetunefootball/coaching-session" target="__blank">
           <button>Book Now</button>
         </a>
       </nav>

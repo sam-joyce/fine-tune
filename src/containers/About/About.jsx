@@ -14,7 +14,7 @@ const About = () => {
     <>
       <LandingPage data={about_text} />
       <Bio />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <GetInTouch />
       <Footer />
     </>

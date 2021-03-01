@@ -4,9 +4,9 @@ import LandingPage from "../../components/LandingPage";
 import Mission from "../../components/Mission";
 
 import {home_text} from "../../data/landing";
-import inplay1 from "../../assets/images/inplay1.png";
-import inplay2 from "../../assets/images/inplay2.png";
-import inplay3 from "../../assets/images/inplay3.png";
+import inplay1 from "../../assets/images/inplay1.jpg";
+import inplay2 from "../../assets/images/inplay2.jpg";
+import inplay3 from "../../assets/images/inplay3.jpg";
 import Testimonials from "../../components/Testimonials";
 import GetInTouch from "../../components/GetInTouch";
 import Footer from "../../components/Footer";
@@ -38,7 +38,7 @@ const Home = () => {
         <p><span>Cancellation Policy:</span> If you need to cancel a session, this needs to be done a minimum of 3 hours before the scheduled start time for a full payment refund or rescheduling of a session to be confirmed. Later cancellations or ‘no shows’ will be charged at full rate.</p>
         <img src={inplay3} alt="Candid football shot"/>
       </section>
-      <section className={styles.nutshell}>
+      <section className={styles.nutshell} id="session-details">
         <h3>In a nutshell...</h3>
         <hr/>
         <div className={styles.details}>
@@ -73,7 +73,7 @@ const Home = () => {
           </article>
         </div>
       </section>
-      <Testimonials />
+      {/* <Testimonials /> */}
       <GetInTouch />
       <Footer />
     </>

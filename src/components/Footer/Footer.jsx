@@ -28,7 +28,7 @@ const Footer = () => {
         <h6>LinkedIn</h6>
       </div>
       <div>
-        <a href="https://calendly.com/samtest21/coaching-session" target="__blank">
+        <a href="https://calendly.com/finetunefootball/coaching-session" target="__blank">
           <button>Book Now</button>
         </a>
       </div>

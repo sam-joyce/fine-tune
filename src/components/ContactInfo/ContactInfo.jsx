@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ContactInfo.module.scss";
 
-import { FiPhone, FiMail,FiFacebook, FiInstagram } from "react-icons/fi";
+import { FiPhone, FiMail, FiFacebook, FiInstagram } from "react-icons/fi";
 import { IoLocationOutline } from "react-icons/io5";
 
 const ContactInfo = () => {
@@ -13,25 +13,29 @@ const ContactInfo = () => {
       </div>
       <div className={styles.wrapper}>
 
-          <FiPhone />
+        {/* <FiPhone />
           <a href="tel: +44 7532 368881">
             <h4>+44 7532 368881</h4>
-          </a>
+          </a> */}
 
-          <FiMail />
-          <a href="mailto: olliemoloney@outlook.com">
-            <h4>olliemoloney@outlook.com</h4>
-          </a>
+        <FiMail />
+        <a href="mailto: olliemoloney@outlook.com">
+          <h4>ollie@finetunefootball.com</h4>
+        </a>
 
-          <IoLocationOutline />
-          <a href="#">
-            <h4>Beacon Park, Lichfield</h4>
-          </a>
+        <IoLocationOutline />
+        <a href="#">
+          <h4>Beacon Park, Lichfield</h4>
+        </a>
 
       </div>
       <div className={styles.icons}>
-        <FiFacebook />
-        <FiInstagram />
+        <a href="https://www.facebook.com/finetunefootball/" target="__blank" >
+          <FiFacebook />
+        </a>
+        <a href="https://www.instagram.com/finetunefootball/" target="__blank">
+          <FiInstagram />
+        </a>
       </div>
     </div>
   );
