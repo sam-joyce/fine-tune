@@ -25,8 +25,8 @@ const Home = () => {
         <p>The FTF bespoke training programme offers individuals the opportunity to work on specific skillsets.  Programmes will be adapted and tailored to you. My goal is to not only develop your skillset, but also confidence in yourself. Having confidence in any walk of life is important but particularly in football. Confidence will enable you to best express your ability and flair on the pitch, implementing what you learn, enhancing your all-round game.</p>
         <p>The tailored programme will follow our Review – Refine – Repeat ethos, giving you time to enhance the skills that you already possess but taking them, and your fitness, to the next level.</p>
         <div>
-          <img src={inplay1} alt="Womens football"/>
-          <img src={inplay2} alt="Womens football"/>
+          <img src={inplay1} alt="Oliver playing football"/>
+          <img src={inplay2} alt="Oliver playing football"/>
         </div>
       </section>
       <section className={styles.sessions}>

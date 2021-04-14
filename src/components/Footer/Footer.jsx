@@ -8,8 +8,13 @@ const Footer = () => {
   return (
     <footer>
       <div className={styles.mobile_icons}>
-        <FiFacebook />
-        <FiInstagram />
+        <a href="https://www.facebook.com/finetunefootball/" target="__blank">
+          <FiFacebook />
+        </a>
+        <a href="https://www.instagram.com/finetunefootball/" target="__blank">
+          <FiInstagram />
+        </a>
+
       </div>
       <div>
         <img src={logo} alt="FTF Logo" />
@@ -23,8 +28,12 @@ const Footer = () => {
       </div>
       <div>
         <h4>Social</h4>
-        <h6>Facebook</h6>
-        <h6>Instagram</h6>
+        <a href="https://www.facebook.com/finetunefootball/" target="__blank">
+          <h6>Facebook</h6>
+        </a>
+        <a href="https://www.instagram.com/finetunefootball/" target="__blank">
+          <h6>Instagram</h6>
+        </a>
         <h6>LinkedIn</h6>
       </div>
       <div>

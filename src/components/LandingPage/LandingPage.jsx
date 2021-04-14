@@ -14,7 +14,9 @@ const LandingPage = (props) => {
         <div className={styles.text_wrapper}>
           <h1>{header}</h1>
           <p>{text}</p>
-          <button>{button_text} <span><FiArrowDownRight/></span></button>
+          <a href="https://www.instagram.com/finetunefootball/" target="__blank">
+            <button>{button_text} <span><FiArrowDownRight /></span></button>
+          </a>
         </div>
       </section>
     </>

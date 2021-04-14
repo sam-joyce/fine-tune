@@ -9,7 +9,7 @@ const ContactInfo = () => {
     <div className={styles.contact_info}>
       <div>
         <h3>Contact Information</h3>
-        <p>Fill out the form and I’ll endeavour to get back to you as quick as I can.</p>
+        <p>Please fill out the form or email me below and I will endeavour to get back to you as quick as I can.</p>
       </div>
       <div className={styles.wrapper}>
 
@@ -19,12 +19,12 @@ const ContactInfo = () => {
           </a> */}
 
         <FiMail />
-        <a href="mailto: olliemoloney@outlook.com">
+        <a href="mailto: ollie@finetunefootball.com">
           <h4>ollie@finetunefootball.com</h4>
         </a>
 
         <IoLocationOutline />
-        <a href="#">
+        <a href="https://goo.gl/maps/zwmM45nVNH9XEbR36" target="__blank">
           <h4>Beacon Park, Lichfield</h4>
         </a>
 
