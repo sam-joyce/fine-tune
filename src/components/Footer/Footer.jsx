@@ -14,7 +14,6 @@ const Footer = () => {
         <a href="https://www.instagram.com/finetunefootball/" target="__blank">
           <FiInstagram />
         </a>
-
       </div>
       <div>
         <img src={logo} alt="FTF Logo" />

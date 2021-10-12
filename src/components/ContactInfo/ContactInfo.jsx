@@ -25,7 +25,7 @@ const ContactInfo = () => {
 
         <IoLocationOutline />
         <a href="https://goo.gl/maps/zwmM45nVNH9XEbR36" target="__blank">
-          <h4>Beacon Park, Lichfield</h4>
+          <h4>Lichfield and surrounding areas</h4>
         </a>
 
       </div>
